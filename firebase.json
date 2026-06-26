@@ -1,4 +1,9 @@
 {
+  "apphosting": {
+    "backendId": "heights-restaurant-menu",
+    "rootDir": "/",
+    "ignore": ["node_modules", ".git", ".next", "site", "assets/menu/_originals"]
+  },
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
