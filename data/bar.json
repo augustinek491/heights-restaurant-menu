@@ -57,6 +57,7 @@
         { "name": "JW Double Black", "priceByTot": 10000, "priceByBottle": 300000 },
         { "name": "JW Black Label", "priceByTot": 10000, "priceByBottle": 250000 },
         { "name": "JW Red Label", "priceByTot": 8000, "priceByBottle": 150000 },
+        { "name": "JW Blonde", "priceByTot": 7000, "priceByBottle": 100000 },
         { "name": "Chivas Regal 18yrs", "priceByTot": 20000, "priceByBottle": 400000 },
         { "name": "Chivas Regal 15yrs", "priceByTot": 15000, "priceByBottle": 300000 },
         { "name": "Chivas Regal 12yrs", "priceByTot": 10000, "priceByBottle": 250000 },

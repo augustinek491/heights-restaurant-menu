@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "heights-menu",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["--yes", "http-server", "-p", "8743", "-c-1"],
-      "port": 8743
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
     }
   ]
 }

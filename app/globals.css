@@ -338,6 +338,7 @@ main {
 
 .image-band img {
   width: 100%;
+  height: auto;
   display: block;
   object-fit: cover;
   filter: brightness(1.55) contrast(1.12) saturate(1.1);

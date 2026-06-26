@@ -61,6 +61,7 @@ function breakfastLunchConfig() {
     { type: "image", id: "breakfast-04-bigbreakfast", aspect: "16:9", caption: "Combo 3 — Big Breakfast" },
     { type: "section", source: bl, name: "Hot Drinks", scope: "breakfast" },
     { type: "section", source: bl, name: "Cold Drinks", scope: "breakfast" },
+    { type: "section", source: bl, name: "Add-Ons", scope: "breakfast" },
     { type: "divider" },
     { type: "section", source: bl, name: "Burgers & Sandwiches", scope: "lunch" },
     { type: "image", id: "lunch-05-beefburger", aspect: "4:5", caption: "Classic Beef Burger" },
@@ -71,6 +72,7 @@ function breakfastLunchConfig() {
     { type: "section", source: bl, name: "Lunch Combos", scope: "lunch" },
     { type: "section", source: bl, name: "Hot Drinks", scope: "lunch" },
     { type: "section", source: bl, name: "Cold Drinks", scope: "lunch" },
+    { type: "section", source: bl, name: "Add-Ons", scope: "lunch" },
   ];
 }
 
@@ -120,6 +122,7 @@ function dessertsJuicesConfig() {
     { type: "section", source: dj, name: "Special Smoothies" },
     { type: "section", source: dj, name: "Combo Offers" },
     { type: "image", id: "dessert-02-fruitplatter", aspect: "16:9", caption: "Fruit Platter" },
+    { type: "section", source: dj, name: "Add-Ons" },
   ];
 }
 
@@ -175,9 +178,11 @@ async function loadJsonData() {
 function findRawSection(dataMap, source, name, scope) {
   if (source === "breakfastLunch") {
     const scopeData = scope === "lunch" ? dataMap.breakfastLunch.lunch : dataMap.breakfastLunch.breakfast;
+    if (name === "Add-Ons") return { name, items: scopeData.addOns || [] };
     return (scopeData.sections || []).find((s) => s.name === name);
   }
   const data = dataMap[source];
+  if (name === "Add-Ons") return { name, items: data.addOns || [] };
   return (data.sections || []).find((s) => s.name === name);
 }
 
