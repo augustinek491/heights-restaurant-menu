@@ -1,0 +1,20 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Menu photography is public read (it's embedded straight into the
+    // public digital menu page). Uploads only ever happen from
+    // scripts/seed-firestore.mjs running with the Admin SDK / a service
+    // account, which bypasses Storage security rules entirely — so this
+    // intentionally denies all client-side writes.
+    match /menu/{allPaths=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Public menu content: readable by anyone (the digital menu has no
+    // login), never writable directly from a client. All writes happen via
+    // the admin dashboard's Server Action (app/admin/actions.ts), which uses
+    // the Admin SDK with a trusted service account and bypasses these rules
+    // entirely — that's the only legitimate write path. The seed script
+    // (scripts/seed-firestore.mjs) is the only other writer, also via the
+    // Admin SDK.
+    match /menuCategories/{categoryId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /menuSections/{sectionId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /menuItems/{itemId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /menuImages/{imageId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /settings/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Deny everything else by default.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
