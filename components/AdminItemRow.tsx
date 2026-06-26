@@ -37,39 +37,64 @@ export function AdminItemRow({ item }: { item: MenuItem }) {
   }
 
   return (
-    <div className="admin-item-row">
-      <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" />
-      <input
-        value={description}
-        onChange={(e) => setDescription(e.target.value)}
-        placeholder="Description"
-        style={{ flex: 1 }}
-      />
-      {isDual ? (
-        <>
-          <input
-            value={priceByTot}
-            onChange={(e) => setPriceByTot(e.target.value)}
-            placeholder="Tot"
-            style={{ width: 90 }}
-          />
-          <input
-            value={priceByBottle}
-            onChange={(e) => setPriceByBottle(e.target.value)}
-            placeholder="Bottle"
-            style={{ width: 90 }}
-          />
-        </>
-      ) : (
+    <div className="admin-item-card">
+      <label className="admin-field-label">
+        Name
         <input
-          value={price}
-          onChange={(e) => setPrice(e.target.value)}
-          placeholder="Price"
-          style={{ width: 90 }}
+          className="admin-item-input admin-item-input-name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Name"
         />
-      )}
-      <button className="admin-button" onClick={handleSave} disabled={saving}>
-        {saving ? "Saving…" : savedAt ? "Saved" : "Save"}
+      </label>
+      <label className="admin-field-label">
+        Description
+        <input
+          className="admin-item-input"
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+          placeholder="Description"
+        />
+      </label>
+      <div className="admin-price-row">
+        {isDual ? (
+          <>
+            <label className="admin-field-label admin-field-label-price">
+              Tot
+              <input
+                className="admin-item-input admin-item-input-price"
+                value={priceByTot}
+                onChange={(e) => setPriceByTot(e.target.value)}
+                placeholder="Tot"
+                inputMode="numeric"
+              />
+            </label>
+            <label className="admin-field-label admin-field-label-price">
+              Bottle
+              <input
+                className="admin-item-input admin-item-input-price"
+                value={priceByBottle}
+                onChange={(e) => setPriceByBottle(e.target.value)}
+                placeholder="Bottle"
+                inputMode="numeric"
+              />
+            </label>
+          </>
+        ) : (
+          <label className="admin-field-label admin-field-label-price">
+            Price
+            <input
+              className="admin-item-input admin-item-input-price"
+              value={price}
+              onChange={(e) => setPrice(e.target.value)}
+              placeholder="Price"
+              inputMode="numeric"
+            />
+          </label>
+        )}
+      </div>
+      <button className="admin-button admin-save-button" onClick={handleSave} disabled={saving}>
+        {saving ? "Saving…" : savedAt ? "Saved ✓" : "Save"}
       </button>
     </div>
   );
