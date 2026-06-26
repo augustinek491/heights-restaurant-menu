@@ -1,2 +1,39 @@
 runConfig:
   minInstances: 0
+
+# Firebase web config is not secret (Firebase API keys are designed to be
+# public — access is enforced by Firestore/Storage security rules and auth
+# custom claims, not by hiding this config). It's needed at BUILD time too
+# because /admin/login is statically prerendered and initializes the
+# Firebase client SDK at module load.
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: "AIzaSyCI7KuPyFanDroMJekVuRLE25jAHnnfx2o"
+    availability:
+      - BUILD
+      - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: "heights-restaurant-menu.firebaseapp.com"
+    availability:
+      - BUILD
+      - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: "heights-restaurant-menu"
+    availability:
+      - BUILD
+      - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: "heights-restaurant-menu.firebasestorage.app"
+    availability:
+      - BUILD
+      - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "1016223273066"
+    availability:
+      - BUILD
+      - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:1016223273066:web:ca838ece7e25de375fba13"
+    availability:
+      - BUILD
+      - RUNTIME
