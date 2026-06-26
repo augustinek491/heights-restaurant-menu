@@ -1,0 +1,136 @@
+{
+  "currency": "UGX",
+  "breakfast": {
+    "hours": "6:00 AM – 11:00 AM",
+    "sections": [
+      {
+        "name": "Breakfast Sandwiches",
+        "items": [
+          { "name": "Egg & Cheese Sandwich", "description": "Fresh egg, melted cheese, toasted bun", "price": 8000 },
+          { "name": "Sausage Egg Muffin", "description": "Sausage patty, egg, cheese, English muffin", "price": 12000 },
+          { "name": "Bacon Breakfast Burger", "description": "Crispy bacon, egg, cheese, burger bun", "price": 14000 },
+          { "name": "Chicken Breakfast Wrap", "description": "Grilled chicken, scrambled eggs, cheese, tortilla wrap", "price": 15000 },
+          { "name": "Veggie Breakfast Roll", "description": "Egg, fresh vegetables, cheese, soft roll", "price": 10000 }
+        ]
+      },
+      {
+        "name": "Pancakes & Waffles",
+        "items": [
+          { "name": "Classic Pancakes", "description": "Served with syrup and butter", "price": 12000 },
+          { "name": "Chocolate Pancakes", "description": "Pancakes topped with chocolate drizzle", "price": 14000 },
+          { "name": "Belgian Waffles", "description": "Crispy waffles with syrup", "price": 15000 }
+        ]
+      },
+      {
+        "name": "Breakfast Sides",
+        "items": [
+          { "name": "Hash Browns", "price": 5000 },
+          { "name": "Sausages (2 Pieces)", "price": 6000 },
+          { "name": "French Fries", "price": 7000 },
+          { "name": "Fresh Fruit Cup", "price": 8000 }
+        ]
+      },
+      {
+        "name": "Breakfast Combos",
+        "items": [
+          { "name": "Combo 1 – Quick Start", "description": "Egg & Cheese Sandwich, Hash Browns, Tea or Coffee", "price": 15000 },
+          { "name": "Combo 2 – Morning Boost", "description": "Sausage Egg Muffin, French Fries, Fresh Juice", "price": 22000 },
+          { "name": "Combo 3 – Big Breakfast", "description": "Bacon Breakfast Burger, Hash Browns, Pancakes, Hot Chocolate or Coffee", "price": 30000 },
+          { "name": "Combo 4 – Chicken Wrap Combo", "description": "Chicken Breakfast Wrap, French Fries, Soda or Juice", "price": 28000 },
+          { "name": "Combo 5 – Sweet Breakfast Combo", "description": "Belgian Waffles, Fresh Fruit Cup, Cappuccino", "price": 25000 }
+        ]
+      },
+      {
+        "name": "Hot Drinks",
+        "items": [
+          { "name": "Black Coffee", "price": 5000 },
+          { "name": "Cappuccino", "price": 8000 },
+          { "name": "African Tea", "price": 5000 },
+          { "name": "Hot Chocolate", "price": 7000 }
+        ]
+      },
+      {
+        "name": "Cold Drinks",
+        "items": [
+          { "name": "Fresh Orange Juice", "price": 8000 },
+          { "name": "Passion Fruit Juice", "price": 8000 },
+          { "name": "Mineral Water", "price": 3000 },
+          { "name": "Soda", "price": 4000 }
+        ]
+      }
+    ],
+    "addOns": [
+      { "name": "Extra Cheese", "price": 2000 },
+      { "name": "Extra Egg", "price": 3000 },
+      { "name": "Extra Bacon", "price": 4000 },
+      { "name": "Avocado", "price": 3000 }
+    ]
+  },
+  "lunch": {
+    "hours": "11:00 AM – 5:00 PM",
+    "sections": [
+      {
+        "name": "Burgers & Sandwiches",
+        "items": [
+          { "name": "Classic Beef Burger", "description": "Grilled beef patty, lettuce, tomato, cheese. Served with fries.", "price": 18000 },
+          { "name": "Crispy Chicken Burger", "description": "Crispy chicken fillet, cheese, fresh vegetables. Served with fries.", "price": 20000 },
+          { "name": "BBQ Bacon Burger", "description": "Beef patty, bacon, BBQ sauce, cheese. Served with fries.", "price": 24000 },
+          { "name": "Club Sandwich", "description": "Chicken, egg, lettuce, tomato, toasted bread. Served with fries.", "price": 17000 },
+          { "name": "Grilled Chicken Wrap", "description": "Grilled chicken strips, vegetables, cheese wrap.", "price": 16000 }
+        ]
+      },
+      {
+        "name": "Rice & Chicken Meals",
+        "items": [
+          { "name": "Fried Chicken & Chips", "description": "2 pieces fried chicken with fries.", "price": 22000 },
+          { "name": "Chicken Pilau", "description": "Spiced pilau rice with grilled chicken.", "price": 20000 },
+          { "name": "Beef Fried Rice", "description": "Stir-fried rice with beef strips and vegetables.", "price": 18000 },
+          { "name": "Chicken Fried Rice", "description": "Stir-fried rice with chicken and vegetables.", "price": 19000 }
+        ]
+      },
+      {
+        "name": "Pizza & Snacks",
+        "items": [
+          { "name": "Mini Pepperoni Pizza", "description": "Personal size pizza with pepperoni and cheese.", "price": 25000 },
+          { "name": "Chicken Wings", "description": "6 spicy chicken wings.", "price": 18000 },
+          { "name": "French Fries Basket", "description": "Crispy fries with sauce.", "price": 10000 },
+          { "name": "Samosa Plate", "description": "4 beef or chicken samosas.", "price": 12000 }
+        ]
+      },
+      {
+        "name": "Lunch Combos",
+        "items": [
+          { "name": "Combo 1 – Burger Combo", "description": "Classic Beef Burger, Fries, Soda", "price": 24000 },
+          { "name": "Combo 2 – Chicken Combo", "description": "Crispy Chicken Burger, Fries, Fresh Juice", "price": 28000 },
+          { "name": "Combo 3 – Rice Combo", "description": "Chicken Fried Rice, 2 Chicken Wings, Soda or Water", "price": 25000 },
+          { "name": "Combo 4 – Pizza Combo", "description": "Mini Pepperoni Pizza, Fries, Soda", "price": 32000 },
+          { "name": "Combo 5 – Executive Lunch", "description": "Chicken Pilau, Fresh Fruit Cup, Fresh Juice", "price": 30000 }
+        ]
+      },
+      {
+        "name": "Hot Drinks",
+        "items": [
+          { "name": "Black Coffee", "price": 5000 },
+          { "name": "Cappuccino", "price": 8000 },
+          { "name": "African Tea", "price": 5000 }
+        ]
+      },
+      {
+        "name": "Cold Drinks",
+        "items": [
+          { "name": "Soda", "price": 4000 },
+          { "name": "Mineral Water", "price": 3000 },
+          { "name": "Fresh Orange Juice", "price": 8000 },
+          { "name": "Passion Fruit Juice", "price": 8000 },
+          { "name": "Iced Tea", "price": 7000 }
+        ]
+      }
+    ],
+    "addOns": [
+      { "name": "Extra Cheese", "price": 2000 },
+      { "name": "Extra Fries", "price": 5000 },
+      { "name": "Extra Chicken Piece", "price": 6000 },
+      { "name": "Avocado", "price": 3000 }
+    ]
+  }
+}

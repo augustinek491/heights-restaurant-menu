@@ -1,0 +1,85 @@
+{
+  "currency": "UGX",
+  "sections": [
+    {
+      "name": "Fresh Cut Fruits",
+      "items": [
+        { "name": "Tropical Fruit Cup", "description": "Watermelon, pineapple, mango, pawpaw", "price": 8000 },
+        { "name": "Mixed Fruit Bowl", "description": "Seasonal fresh fruits with mint garnish", "price": 12000 },
+        { "name": "Pineapple Slices", "description": "Fresh chilled pineapple", "price": 7000 },
+        { "name": "Watermelon Bowl", "description": "Fresh juicy watermelon cubes", "price": 7000 },
+        { "name": "Fruit Platter", "description": "Assorted premium fresh fruits", "price": 18000 }
+      ]
+    },
+    {
+      "name": "Classic Juices",
+      "items": [
+        { "name": "Fresh Orange Juice", "price": 8000 },
+        { "name": "Passion Fruit Juice", "price": 8000 },
+        { "name": "Mango Juice", "price": 9000 },
+        { "name": "Pineapple Juice", "price": 8000 },
+        { "name": "Watermelon Juice", "price": 8000 },
+        { "name": "Sugarcane Juice", "price": 10000 }
+      ]
+    },
+    {
+      "name": "Special Juice Mixes",
+      "items": [
+        { "name": "Tropical Mix", "description": "Mango, pineapple & passion fruit", "price": 12000 },
+        { "name": "Detox Green Juice", "description": "Apple, cucumber, ginger & mint", "price": 14000 },
+        { "name": "Sunrise Juice", "description": "Orange, watermelon & pineapple", "price": 13000 }
+      ]
+    },
+    {
+      "name": "Ice Cream Cups",
+      "items": [
+        { "name": "Vanilla Ice Cream", "price": 7000 },
+        { "name": "Chocolate Ice Cream", "price": 7000 },
+        { "name": "Strawberry Ice Cream", "price": 7000 },
+        { "name": "Cookies & Cream", "price": 9000 },
+        { "name": "Mixed Scoop Ice Cream", "description": "3 flavor scoops", "price": 12000 }
+      ]
+    },
+    {
+      "name": "Sundaes",
+      "items": [
+        { "name": "Chocolate Sundae", "description": "Ice cream topped with chocolate syrup", "price": 14000 },
+        { "name": "Strawberry Sundae", "description": "Ice cream with strawberry topping", "price": 14000 },
+        { "name": "Caramel Crunch Sundae", "description": "Caramel syrup and crunchy toppings", "price": 15000 }
+      ]
+    },
+    {
+      "name": "Classic Smoothies",
+      "items": [
+        { "name": "Strawberry Smoothie", "description": "Strawberry blended with yogurt", "price": 14000 },
+        { "name": "Mango Smoothie", "description": "Fresh mango blended smoothie", "price": 14000 },
+        { "name": "Banana Smoothie", "description": "Banana, milk & honey blend", "price": 13000 },
+        { "name": "Avocado Smoothie", "description": "Creamy avocado smoothie", "price": 15000 }
+      ]
+    },
+    {
+      "name": "Special Smoothies",
+      "items": [
+        { "name": "Tropical Paradise", "description": "Mango, pineapple & coconut blend", "price": 16000 },
+        { "name": "Berry Blast", "description": "Mixed berries & yogurt smoothie", "price": 17000 },
+        { "name": "Peanut Butter Banana Smoothie", "description": "Banana, peanut butter & milk", "price": 18000 },
+        { "name": "Green Energy Smoothie", "description": "Spinach, apple, banana & ginger", "price": 17000 }
+      ]
+    },
+    {
+      "name": "Combo Offers",
+      "items": [
+        { "name": "Combo 1 – Fruit & Juice Combo", "description": "Tropical Fruit Cup + Fresh Orange Juice", "price": 14000 },
+        { "name": "Combo 2 – Smoothie Combo", "description": "Mango Smoothie + Mixed Fruit Bowl", "price": 22000 },
+        { "name": "Combo 3 – Ice Cream Delight", "description": "Chocolate Sundae + Fresh Juice", "price": 20000 },
+        { "name": "Combo 4 – Healthy Combo", "description": "Detox Green Juice + Green Energy Smoothie", "price": 28000 }
+      ]
+    }
+  ],
+  "addOns": [
+    { "name": "Extra Fruit Toppings", "price": 2000 },
+    { "name": "Whipped Cream", "price": 2000 },
+    { "name": "Chocolate Syrup", "price": 2000 },
+    { "name": "Extra Ice Cream Scoop", "price": 4000 }
+  ]
+}

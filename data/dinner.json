@@ -1,0 +1,155 @@
+{
+  "currency": "UGX",
+  "note": "Above mains are served with a choice of matooke, rice, posho, yam, sweet potatoes, pumpkin, greens or vegetables (unless otherwise noted).",
+  "sections": [
+    {
+      "name": "Chicken",
+      "items": [
+        { "name": "Kuku wa Nazzi", "description": "Tender chicken cubes cooked in coconut sauce served with rice/chapatti or mashed potatoes", "price": 25000 },
+        { "name": "Grilled Chicken (Chicken Chips)", "description": "Well marinated chicken served with gravy, salad, chips or rice", "price": 22000 },
+        { "name": "Stir Fried Chicken", "description": "Chicken strips tossed in bell peppers, served with rice/chips", "price": 25000 },
+        { "name": "BBQ Chicken Wings", "description": "Tossed in BBQ sauce served with chips or wedges/salads", "price": 25000 },
+        { "name": "Chicken Breast in Mushroom", "description": "Served with rice/posho or matooke", "price": 25000 },
+        { "name": "Chicken Stew", "description": "Dried chicken cooked in vegetables served with food of your choice (matooke, yam/sweet potatoes/rice, posho)", "price": 22000 },
+        { "name": "Chicken Lollipop", "description": "Chicken wing part tossed in sweet sauce", "price": 25000 }
+      ]
+    },
+    {
+      "name": "Goat",
+      "items": [
+        { "name": "BBQ Goat Ribs", "description": "Tossed in BBQ sauce served with chips/wedges or rice", "price": 40000 },
+        { "name": "Pan Fried Goat", "description": "Diced goat tossed in vegetables served with chips/wedges", "price": 25000 },
+        { "name": "Goat Stew", "description": "Diced goat cooked in vegetables served with food of your choice", "price": 25000 }
+      ]
+    },
+    {
+      "name": "Fish",
+      "items": [
+        { "name": "Wet/Crisp Whole Fish", "description": "Deep fried whole fish tossed in vegetables served with chips/wedges", "price": 50000 },
+        { "name": "Grilled Fish Fillet", "description": "Served with chips/rice & tartar sauce", "price": 25000 },
+        { "name": "Fish Finger-Breaded", "description": "Served with tartar sauce, chips/wedges", "price": 25000 }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "items": [
+        { "name": "Spaghetti Carbonara", "description": "Chicken fillet cooked in white cream sauce", "price": 25000 },
+        { "name": "Spaghetti Bolognaise", "description": "Cooked with bolognaise sauce", "price": 20000 },
+        { "name": "Spaghetti Napolitano", "description": "Cooked in concasse sauce", "price": 20000 }
+      ]
+    },
+    {
+      "name": "Beef",
+      "items": [
+        { "name": "Beef Steak", "description": "Beef steak (pepper/mushroom/cheese) served with vegetable sauce, accompanied with chips/rice", "price": 25000 },
+        { "name": "Pan Fried Beef", "description": "Diced beef tossed in vegetables", "price": 22000 },
+        { "name": "Beef Stew", "description": "Diced beef cooked in vegetables served with food of your choice", "price": 22000 },
+        { "name": "Pan Fried Liver", "description": "Ox-liver in onions, bell peppers, tomatoes & cream served with chips/rice", "price": 22000 }
+      ]
+    },
+    {
+      "name": "Pork",
+      "items": [
+        { "name": "Grilled Pork Chops", "description": "Well marinated chops with mushroom sauce, chips/wedges", "price": 40000 },
+        { "name": "Pork Ribs", "description": "Tossed in BBQ sauce served with salad or vegetables, chips/rice/wedges", "price": 40000 },
+        { "name": "Pork Kikalayi", "description": "1kg of pan fried pork tossed in vegetables served with matooke fingers, chips/wedges or rice", "price": 40000 },
+        { "name": "Pan Fried Pork", "description": "Diced pork fillet tossed in vegetables served with chips/wedges or rice", "price": 20000 }
+      ]
+    },
+    {
+      "name": "Curries",
+      "items": [
+        { "name": "Chicken Tikka", "description": "Boneless chicken cubes cooked in tikka masala sauce served with mashed potato or posho", "price": 25000 },
+        { "name": "Chicken Curry (Hot/Mild)", "description": "Spiced chicken curry served with rice/posho", "price": 25000 },
+        { "name": "Fish Curry (Hot/Mild)", "description": "Fish cooked in curry sauce served with rice/posho", "price": 25000 },
+        { "name": "Sizzlers", "description": "Chicken/beef/pork served with mashed potatoes/rice/wedges", "price": 30000 },
+        { "name": "French Fries (Plain Chips)", "description": "Served with salad", "price": 10000 },
+        { "name": "Plantain", "description": "Served with salad", "price": 10000 }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "items": [
+        { "name": "Chicken Pizza", "description": "Spiced chicken diced with vegetables, cheese/oregano", "price": 30000 },
+        { "name": "Beef Pizza", "description": "Diced beef with vegetables/cheese/oregano", "price": 30000 },
+        { "name": "Vegetable Pizza", "description": "Vegetable/pizza sauce/cheese/oregano", "price": 25000 },
+        { "name": "Margherita Pizza", "description": "Pizza sauce/cheese/oregano", "price": 25000 }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        { "name": "Chicken/Beef Burger", "description": "Grilled chicken/beef patty with lettuce, tomato, mayonnaise served with chips & salads", "price": 20000 }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        { "name": "Club Sandwich", "description": "Toasted bread/mayonnaise/lettuce/chicken/bacon egg/cheddar cheese served with chips", "price": 25000 },
+        { "name": "Mexicano", "description": "Chicken breast/bell peppers/cheddar cheese served with chips", "price": 20000 },
+        { "name": "T.L.C.", "description": "Vegetables/cheddar cheese served with chips", "price": 20000 }
+      ]
+    },
+    {
+      "name": "Local Food",
+      "items": [
+        { "name": "Chicken Luwombo", "description": "Chicken slow-steamed in banana leaves with groundnut sauce, a Ugandan classic", "price": 20000 },
+        { "name": "Beef Luwombo", "description": "Beef slow-steamed in banana leaves with groundnut sauce, a Ugandan classic", "price": 20000 },
+        { "name": "Fish Stew", "description": "Fish simmered in a rich vegetable and tomato stew", "price": 25000 }
+      ]
+    },
+    {
+      "name": "Hot Drinks",
+      "items": [
+        { "name": "Espresso Single", "price": 6000 },
+        { "name": "Espresso Double", "price": 10000 },
+        { "name": "Espresso Macchiato", "price": 7000 },
+        { "name": "Espresso Macchiato Double", "price": 10000 },
+        { "name": "Cappuccino Single", "price": 8000 },
+        { "name": "Cappuccino Double", "price": 10000 },
+        { "name": "Americano", "price": 10000 },
+        { "name": "Café Latte", "price": 8000 },
+        { "name": "Café Latte with Flavour", "price": 12000 },
+        { "name": "Hot Chocolate", "price": 10000 },
+        { "name": "English Breakfast Tea", "price": 12000 },
+        { "name": "Black Tea", "price": 5000 }
+      ]
+    },
+    {
+      "name": "Iced Drinks",
+      "items": [
+        { "name": "Green Tea Cucumber Mint", "price": 10000 },
+        { "name": "Green Tea Lemon Ginger", "price": 10000 },
+        { "name": "Ice Tea Real Tai", "price": 12000 },
+        { "name": "Ice Tea Watermelon", "price": 12000 },
+        { "name": "Ice Latte", "price": 12000 },
+        { "name": "Ice Latte Vanilla", "price": 15000 },
+        { "name": "Ice Latte Caramel", "price": 15000 }
+      ]
+    },
+    {
+      "name": "Flavoured Teas",
+      "items": [
+        { "name": "Green Tea", "price": 8000 },
+        { "name": "Green Tea Mint", "price": 8000 },
+        { "name": "Green Tea Lemon", "price": 8000 },
+        { "name": "Fresh Peppermint Tea", "price": 8000 },
+        { "name": "African Tea", "price": 8000 },
+        { "name": "Indian Tea", "price": 10000 }
+      ]
+    },
+    {
+      "name": "Milk Shake",
+      "items": [
+        { "name": "Strawberry Vanilla", "price": 20000 },
+        { "name": "Chocolate Banana", "price": 20000 }
+      ]
+    },
+    {
+      "name": "Smoothies",
+      "items": [
+        { "name": "Tropical Breakfast", "price": 25000 }
+      ]
+    }
+  ]
+}

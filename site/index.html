@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Heights Restaurant — Menu</title>
+<meta name="description" content="Heights Restaurant at Glass Heights Apartments — digital menu" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Work+Sans:ital,wght@0,400;0,500;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="cover" id="cover">
+    <svg class="skyline" viewBox="0 0 600 160" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+      <path class="skyline-path" d="M0,150 L40,150 L40,120 L60,120 L60,150 L95,150 L95,100 L110,90 L125,100 L125,150 L160,150 L160,70 L172,70 L172,40 L184,40 L184,70 L196,70 L196,150 L240,150 L240,110 L260,90 L280,110 L280,150 L320,150 L320,60 L335,55 L350,60 L350,150 L395,150 L395,95 L410,80 L425,95 L425,150 L470,150 L470,30 L482,30 L482,150 L520,150 L520,115 L540,100 L560,115 L560,150 L600,150" fill="none" stroke="currentColor" stroke-width="2"/>
+      <line class="skyline-glass" x1="482" y1="30" x2="482" y2="150" stroke="currentColor" stroke-width="3"/>
+    </svg>
+    <p class="cover-eyebrow">Glass Heights Apartments</p>
+    <h1 class="cover-title">Heights<span class="cover-title-sub">Restaurant</span></h1>
+    <p class="cover-welcome">Thank you for joining us today. Every dish here is prepared with fresh, carefully sourced ingredients and the same care we'd give our own family.</p>
+    <a href="#menu" class="cover-cta">View the menu <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <nav class="catnav" id="catnav" aria-label="Menu categories">
+    <div class="catnav-inner">
+      <button class="catnav-pill" data-target="breakfast-lunch" aria-selected="true">Breakfast &amp; Lunch</button>
+      <button class="catnav-pill" data-target="dinner" aria-selected="false">Dinner</button>
+      <button class="catnav-pill" data-target="desserts-juices" aria-selected="false">Desserts &amp; Juices</button>
+      <button class="catnav-pill" data-target="bar" aria-selected="false">Bar</button>
+    </div>
+  </nav>
+
+  <main id="menu">
+    <section class="menu-section" id="section-breakfast-lunch" data-section="breakfast-lunch">
+      <h2 class="sr-only">Breakfast &amp; Lunch</h2>
+      <div class="menu-section-content"></div>
+    </section>
+    <section class="menu-section" id="section-dinner" data-section="dinner" hidden>
+      <h2 class="sr-only">Dinner</h2>
+      <div class="menu-section-content"></div>
+    </section>
+    <section class="menu-section" id="section-desserts-juices" data-section="desserts-juices" hidden>
+      <h2 class="sr-only">Desserts &amp; Juices</h2>
+      <div class="menu-section-content"></div>
+    </section>
+    <section class="menu-section" id="section-bar" data-section="bar" hidden>
+      <h2 class="sr-only">Bar</h2>
+      <div class="menu-section-content"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Heights Restaurant · Glass Heights Apartments</p>
+    <p class="site-footer-contact">info@glassheightsapartments.com &nbsp;·&nbsp; +256 (0) 780 970670</p>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>

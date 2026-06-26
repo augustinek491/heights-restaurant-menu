@@ -1,0 +1,203 @@
+{
+  "currency": "UGX",
+  "sections": [
+    {
+      "name": "Classic Cocktails",
+      "items": [
+        { "name": "Long Island Iced Tea", "description": "A mixed boozy drink made with orange liqueur, white rum, vodka, gin, tequila, lime juice topped with a splash of cola", "price": 30000 },
+        { "name": "Whisky Sour", "description": "Popular Jack Daniels whiskey based cocktail with lemon juice, sugar and a dash of bitters", "price": 20000 },
+        { "name": "Tequila Sunrise", "description": "Mixed combination of tequila, grenadine syrup and orange juice", "price": 25000 },
+        { "name": "Mai Tai", "description": "Thai signature cocktail made with white rum, dark rum, orange liqueur and lime juice", "price": 20000 },
+        { "name": "Caipirinha", "description": "The national drink of Brazil made with white rum, sugar and fresh lime", "price": 20000 },
+        { "name": "Negroni", "description": "Classic cocktail shaken with gin, aperitif and vermouth", "price": 20000 },
+        { "name": "Irish Julep", "description": "Refreshing mint pressed with sugar and shaken with Irish whiskey", "price": 20000 },
+        { "name": "Margarita", "description": "Served with salt on the rim of the glass, typically made with tequila, orange liqueur and lime juice", "price": 25000 },
+        { "name": "Blue Lagoon", "description": "A refreshing drink shaken with vodka, lime juice and a splash of sprite", "price": 15000 }
+      ]
+    },
+    {
+      "name": "Signature Cocktails",
+      "items": [
+        { "name": "Ugandan Mule", "description": "An original twist to the mule made of Uganda Waragi, vodka, pineapple juice and a hint of ginger", "price": 20000 },
+        { "name": "Naughty Passion", "description": "Cabana's signature cocktail made of fresh passion fruit & mint pressed with sugar, shaken with gin & whiskey", "price": 20000 }
+      ]
+    },
+    {
+      "name": "Brandy / Cognac",
+      "items": [
+        { "name": "Hennessy VSOP", "priceByTot": 20000, "priceByBottle": 600000 },
+        { "name": "Hennessy VS", "priceByTot": 20000, "priceByBottle": 450000 },
+        { "name": "Remy Martin VSOP", "priceByTot": 20000, "priceByBottle": 600000 },
+        { "name": "Martel VSOP", "priceByTot": 20000, "priceByBottle": 500000 },
+        { "name": "Martel VS", "priceByTot": 10000, "priceByBottle": 400000 },
+        { "name": "Courvoisier VSOP", "priceByTot": 25000, "priceByBottle": 600000 },
+        { "name": "Courvoisier VS", "priceByTot": 20000, "priceByBottle": 400000 }
+      ]
+    },
+    {
+      "name": "Single Malt",
+      "items": [
+        { "name": "Glenfiddich 18yrs", "priceByTot": 25000, "priceByBottle": 500000 },
+        { "name": "Glenfiddich 15yrs", "priceByTot": 20000, "priceByBottle": 400000 },
+        { "name": "Glenfiddich 12yrs", "priceByTot": 10000, "priceByBottle": 300000 },
+        { "name": "Glenlivet 15yrs", "priceByTot": 20000, "priceByBottle": 400000 },
+        { "name": "Glenlivet 12yrs", "priceByTot": 20000, "priceByBottle": 350000 },
+        { "name": "Singleton 18yrs", "priceByTot": 20000, "priceByBottle": 600000 },
+        { "name": "Singleton 15yrs", "priceByTot": 20000, "priceByBottle": 400000 },
+        { "name": "Singleton 12yrs", "priceByTot": 15000, "priceByBottle": 300000 },
+        { "name": "Macallan 12yrs", "priceByTot": 20000, "priceByBottle": 600000 },
+        { "name": "Talisker 10yrs", "priceByTot": 15000, "priceByBottle": 500000 }
+      ]
+    },
+    {
+      "name": "Scotch Whiskey",
+      "items": [
+        { "name": "JW Blue Label", "priceByTot": 60000, "priceByBottle": 950000 },
+        { "name": "JW Gold Reserve", "priceByTot": 20000, "priceByBottle": 750000 },
+        { "name": "JW Double Black", "priceByTot": 10000, "priceByBottle": 300000 },
+        { "name": "JW Black Label", "priceByTot": 10000, "priceByBottle": 250000 },
+        { "name": "JW Red Label", "priceByTot": 8000, "priceByBottle": 150000 },
+        { "name": "Chivas Regal 18yrs", "priceByTot": 20000, "priceByBottle": 400000 },
+        { "name": "Chivas Regal 15yrs", "priceByTot": 15000, "priceByBottle": 300000 },
+        { "name": "Chivas Regal 12yrs", "priceByTot": 10000, "priceByBottle": 250000 },
+        { "name": "Famous Grouse", "priceByTot": 8000, "priceByBottle": 150000 },
+        { "name": "Grants", "priceByTot": 8000, "priceByBottle": 200000 },
+        { "name": "VAT 69", "priceByTot": 10000, "priceByBottle": 90000 },
+        { "name": "Black & White", "priceByTot": 8000, "priceByBottle": 80000 },
+        { "name": "Bond 7", "priceByTot": 5000, "priceByBottle": 50000 }
+      ]
+    },
+    {
+      "name": "Irish Whiskey",
+      "items": [
+        { "name": "Jameson Black Barrel", "priceByTot": 10000, "priceByBottle": 250000 },
+        { "name": "Jameson Irish", "priceByTot": 10000, "priceByBottle": 200000 }
+      ]
+    },
+    {
+      "name": "Bourbon & Tennessee",
+      "items": [
+        { "name": "Gentleman Jack", "priceByTot": 10000, "priceByBottle": 200000 },
+        { "name": "Jack Daniels", "priceByTot": 10000, "priceByBottle": 280000 },
+        { "name": "Jack Daniels Honey", "priceByTot": 10000, "priceByBottle": 250000 }
+      ]
+    },
+    {
+      "name": "Vodka",
+      "items": [
+        { "name": "Ciroc", "priceByTot": 10000, "priceByBottle": 340000 },
+        { "name": "Ciroc Pineapple", "priceByTot": 15000, "priceByBottle": 340000 },
+        { "name": "Absolut Vodka", "priceByTot": 8000, "priceByBottle": 100000 },
+        { "name": "Smirnoff Vodka", "priceByTot": 5000, "priceByBottle": 50000 },
+        { "name": "Chrome Vodka", "priceByTot": 5000, "priceByBottle": 40000 }
+      ]
+    },
+    {
+      "name": "Gin",
+      "items": [
+        { "name": "Hendricks", "priceByTot": 10000, "priceByBottle": 400000 },
+        { "name": "Bombay Sapphire", "priceByTot": 10000, "priceByBottle": 150000 },
+        { "name": "Gordons", "priceByTot": 10000, "priceByBottle": 80000 },
+        { "name": "Beefeater", "priceByTot": 10000, "priceByBottle": 150000 },
+        { "name": "Tanqueray", "priceByTot": 10000, "priceByBottle": 400000 },
+        { "name": "Gilbeys", "priceByTot": 5000, "priceByBottle": 50000 }
+      ]
+    },
+    {
+      "name": "Rum",
+      "items": [
+        { "name": "Bacardi Gold", "priceByTot": 10000, "priceByBottle": 200000 },
+        { "name": "Bacardi Silver", "priceByTot": 8000, "priceByBottle": 180000 },
+        { "name": "Malibu", "priceByTot": 8000, "priceByBottle": 180000 },
+        { "name": "Captain Morgan Gold", "priceByTot": 5000, "priceByBottle": 50000 },
+        { "name": "Captain Morgan Spiced Gold", "priceByTot": 10000, "priceByBottle": 150000 }
+      ]
+    },
+    {
+      "name": "Tequila",
+      "items": [
+        { "name": "Olmeca Gold", "priceByTot": 10000, "priceByBottle": 200000 },
+        { "name": "Olmeca Silver", "priceByTot": 10000, "priceByBottle": 200000 }
+      ]
+    },
+    {
+      "name": "Uganda Waragi",
+      "items": [
+        { "name": "Coconut", "priceByTot": 5000, "priceByBottle": 50000 },
+        { "name": "Original", "priceByTot": 5000, "priceByBottle": 50000 },
+        { "name": "Ginger", "priceByTot": 5000, "priceByBottle": 70000 }
+      ]
+    },
+    {
+      "name": "Liqueur",
+      "items": [
+        { "name": "Jagermeister", "priceByTot": 10000, "priceByBottle": 350000 },
+        { "name": "Southern Comfort", "priceByTot": 8000, "priceByBottle": 150000 },
+        { "name": "Amarula", "priceByTot": 10000, "priceByBottle": 150000 },
+        { "name": "Baileys", "priceByTot": 10000, "priceByBottle": 150000 },
+        { "name": "Kahlua", "priceByTot": 10000, "priceByBottle": 200000 },
+        { "name": "Zappa (Red, Blue, Green)", "priceByTot": 10000, "priceByBottle": 150000 },
+        { "name": "Don Julio", "priceByTot": 15000, "priceByBottle": 420000 },
+        { "name": "Martini 750mls", "priceByBottle": 130000 },
+        { "name": "J&B", "priceByBottle": 150000 }
+      ]
+    },
+    {
+      "name": "Minis (200ml)",
+      "items": [
+        { "name": "Uganda Waragi 200ml", "price": 15000 },
+        { "name": "Bond 7 200ml", "price": 15000 },
+        { "name": "Gilbeys 200ml", "price": 15000 },
+        { "name": "VAT 69 200ml", "price": 15000 },
+        { "name": "Captain Morgan 200ml", "price": 15000 }
+      ]
+    },
+    {
+      "name": "Local & Foreign Beers",
+      "items": [
+        { "name": "Club Pilsner", "price": 5000 },
+        { "name": "Nile Special", "price": 5000 },
+        { "name": "Castle Lite", "price": 5000 },
+        { "name": "Guinness Stout", "price": 5000 },
+        { "name": "Guinness Smooth", "price": 5000 },
+        { "name": "Tusker Lite", "price": 5000 },
+        { "name": "Tusker Lager", "price": 5000 },
+        { "name": "Tusker Malt", "price": 5000 },
+        { "name": "Tusker Cider", "price": 6000 },
+        { "name": "Smirnoff Ice", "price": 6000 },
+        { "name": "Bell Lager", "price": 5000 },
+        { "name": "Savanna", "price": 10000 },
+        { "name": "Guarana", "price": 10000 },
+        { "name": "Hunters", "price": 10000 }
+      ]
+    },
+    {
+      "name": "Wine",
+      "items": [
+        { "name": "Four Cousins 1.5L", "price": 90000, "unit": "bottle" },
+        { "name": "Four Cousins 750ml", "price": 60000, "unit": "bottle" },
+        { "name": "Nederburg 750ml", "price": 120000, "unit": "bottle" },
+        { "name": "7 Hills", "price": 60000, "unit": "bottle" },
+        { "name": "JP Chenet", "price": 120000, "unit": "bottle" },
+        { "name": "Bavaria", "price": 8000, "unit": "can" },
+        { "name": "Four Cousins 5L", "price": 10000, "unit": "glass" },
+        { "name": "Cella Cask 5L", "price": 10000, "unit": "glass" }
+      ]
+    },
+    {
+      "name": "Mixers & Soft Drinks",
+      "items": [
+        { "name": "Water", "price": 2000 },
+        { "name": "Sting", "price": 3000 },
+        { "name": "Rock Boom", "price": 3000 },
+        { "name": "Soda", "price": 2000 },
+        { "name": "Red Bull", "price": 10000 },
+        { "name": "Minute Maid", "price": 3000 }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "info@glassheightsapartments.com",
+    "phone": "+256 (0) 780 970670"
+  }
+}

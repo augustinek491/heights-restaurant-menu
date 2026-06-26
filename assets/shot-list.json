@@ -1,0 +1,47 @@
+{
+  "style_guide": "Moody, warm, editorial food/drink photography. Deep espresso-brown ambient background consistent with palette #14110D/#1F1A14. Warm low directional light (single key light, soft falloff), antique-gold rim highlights (#B9883E/#E2B765), occasional muted clay-red prop accents (#8C4A30). Shallow depth of field, shot from 30-45 degree angle unless noted as top-down. Dark slate or wood surface. No on-image text, no logos, no people's faces. Photoreal, not illustration. Ugandan/East African restaurant context where relevant (e.g. matooke, posho, banana leaf, copper mugs for cocktails).",
+  "aspect_ratio_default": "4:5",
+  "shots": [
+    { "id": "breakfast-01-hero", "category": "breakfast-lunch", "aspect": "16:9", "subject": "Egg & Cheese Sandwich on a toasted bun, melted cheese visible, plated simply, morning light", "hero": true },
+    { "id": "breakfast-02-waffles", "category": "breakfast-lunch", "aspect": "4:5", "subject": "Belgian waffles stacked, drizzled with syrup, light dusting of powdered sugar" },
+    { "id": "breakfast-03-pancakes", "category": "breakfast-lunch", "aspect": "4:5", "subject": "Classic pancake stack with butter pat melting on top and syrup pour" },
+    { "id": "breakfast-04-bigbreakfast", "category": "breakfast-lunch", "aspect": "16:9", "subject": "Big Breakfast combo platter: bacon breakfast burger, hash browns, pancakes, side of fruit", "hero": true },
+    { "id": "lunch-05-beefburger", "category": "breakfast-lunch", "aspect": "4:5", "subject": "Classic beef burger with lettuce, tomato, cheese, side of crispy fries" },
+    { "id": "lunch-06-chickenburger", "category": "breakfast-lunch", "aspect": "4:5", "subject": "Crispy chicken burger, golden fried fillet, fresh vegetables, bun toasted" },
+    { "id": "lunch-07-pizza", "category": "breakfast-lunch", "aspect": "4:5", "subject": "Mini pepperoni pizza personal size, melted cheese, slight char on crust" },
+    { "id": "lunch-08-pilau", "category": "breakfast-lunch", "aspect": "4:5", "subject": "Spiced chicken pilau rice with grilled chicken piece, garnished, top-down angle" },
+
+    { "id": "dinner-01-kukuwanazzi", "category": "dinner", "aspect": "16:9", "subject": "Kuku wa Nazzi: tender chicken cubes in rich coconut sauce, served with rice and chapatti, garnished with herbs", "hero": true },
+    { "id": "dinner-02-chickenwings", "category": "dinner", "aspect": "4:5", "subject": "BBQ chicken wings glazed and charred, stacked on a dark plate with a small ramekin of sauce" },
+    { "id": "dinner-03-goatribs", "category": "dinner", "aspect": "16:9", "subject": "BBQ goat ribs glazed and charred, smoky char marks, served with wedges, dramatic side lighting", "hero": true },
+    { "id": "dinner-04-wholefish", "category": "dinner", "aspect": "4:5", "subject": "Whole crisp deep-fried fish tossed with vegetables and peppers, served on a platter" },
+    { "id": "dinner-05-carbonara", "category": "dinner", "aspect": "4:5", "subject": "Spaghetti carbonara with chicken fillet in creamy white sauce, fresh cracked pepper on top" },
+    { "id": "dinner-06-beefsteak", "category": "dinner", "aspect": "4:5", "subject": "Beef steak with mushroom cream sauce, vegetable accompaniment, chips on the side, sliced to show doneness" },
+    { "id": "dinner-07-porkchops", "category": "dinner", "aspect": "4:5", "subject": "Grilled marinated pork chops with mushroom sauce, char grill marks, side of wedges" },
+    { "id": "dinner-08-chickentikka", "category": "dinner", "aspect": "4:5", "subject": "Chicken tikka in masala sauce, rich orange-red color, served with mashed potato, garnished with cilantro" },
+    { "id": "dinner-09-chickenpizza", "category": "dinner", "aspect": "4:5", "subject": "Chicken pizza with diced spiced chicken, vegetables, oregano, melted cheese, slight char" },
+    { "id": "dinner-10-clubsandwich", "category": "dinner", "aspect": "4:5", "subject": "Club sandwich stacked high, toasted bread, visible layers of chicken, bacon, egg, lettuce, cheddar, cut diagonally" },
+    { "id": "dinner-11-luwombo", "category": "dinner", "aspect": "16:9", "subject": "Chicken Luwombo served traditionally wrapped in banana leaf, steam rising, rustic presentation, East African specialty", "hero": true },
+    { "id": "dinner-12-latte", "category": "dinner", "aspect": "4:5", "subject": "Cappuccino with latte art in a dark ceramic cup, top-down angle, warm light" },
+
+    { "id": "dessert-01-fruitcup", "category": "desserts-juices", "aspect": "4:5", "subject": "Tropical fruit cup with watermelon, pineapple, mango, pawpaw, fresh and colorful, top-down" },
+    { "id": "dessert-02-fruitplatter", "category": "desserts-juices", "aspect": "16:9", "subject": "Assorted premium fresh fruit platter, vibrant colors arranged elegantly", "hero": true },
+    { "id": "dessert-03-icecream", "category": "desserts-juices", "aspect": "4:5", "subject": "Mixed scoop ice cream, three flavors in a glass dish, slightly melting, garnished with mint" },
+    { "id": "dessert-04-sundae", "category": "desserts-juices", "aspect": "4:5", "subject": "Chocolate sundae in a tall glass, ice cream layered with chocolate syrup drizzle, whipped cream top" },
+    { "id": "dessert-05-mangosmoothie", "category": "desserts-juices", "aspect": "4:5", "subject": "Mango smoothie in a glass with a straw, vivid orange color, condensation on glass" },
+    { "id": "dessert-06-avocadosmoothie", "category": "desserts-juices", "aspect": "4:5", "subject": "Avocado smoothie, pale green, creamy, served in a glass with a sprig of mint" },
+    { "id": "dessert-07-juices", "category": "desserts-juices", "aspect": "4:5", "subject": "Two glasses side by side: fresh orange juice and passion fruit juice, vivid colors, condensation" },
+    { "id": "dessert-08-caramelsundae", "category": "desserts-juices", "aspect": "4:5", "subject": "Caramel crunch sundae with caramel syrup drizzle and crunchy praline topping" },
+
+    { "id": "bar-01-ugandanmule", "category": "bar", "aspect": "16:9", "subject": "Ugandan Mule cocktail served in a copper mule mug, garnished with lime wheel and mint, condensation beads, moody bar lighting", "hero": true },
+    { "id": "bar-02-naughtypassion", "category": "bar", "aspect": "16:9", "subject": "Naughty Passion cocktail, vivid orange-red passion fruit color, served in a coupe glass garnished with mint and fresh passion fruit half", "hero": true },
+    { "id": "bar-03-margarita", "category": "bar", "aspect": "4:5", "subject": "Margarita in a salt-rimmed glass, garnished with lime wedge, condensation, moody bar background" },
+    { "id": "bar-04-negroni", "category": "bar", "aspect": "4:5", "subject": "Negroni in a rocks glass with large ice cube, garnished with orange peel twist, deep red color" },
+    { "id": "bar-05-longisland", "category": "bar", "aspect": "4:5", "subject": "Long Island Iced Tea in a tall highball glass with ice and a lemon wedge garnish" },
+    { "id": "bar-06-singlemalt", "category": "bar", "aspect": "4:5", "subject": "Single malt whiskey poured into a crystal glass on a dark wood bar, bottle softly out of focus behind" },
+    { "id": "bar-07-gin", "category": "bar", "aspect": "4:5", "subject": "Gin and tonic with botanicals (juniper, citrus peel), served in a balloon glass with ice, garnished with rosemary" },
+    { "id": "bar-08-wine", "category": "bar", "aspect": "4:5", "subject": "Glass of red wine beside the bottle, soft warm lighting, simple elegant composition" },
+    { "id": "bar-09-beers", "category": "bar", "aspect": "4:5", "subject": "Two chilled local lager bottles with condensation, glasses poured beside them, bar counter setting" },
+    { "id": "bar-10-cognac", "category": "bar", "aspect": "4:5", "subject": "Cognac in a snifter glass, amber liquid catching warm light, bottle blurred in background" }
+  ]
+}
